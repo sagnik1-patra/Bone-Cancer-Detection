@@ -1,0 +1,6 @@
+path,true_label,pred_label,pred_prob_cancer
+C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Cancer\11.jpg,Cancer,Normal,0.5186958312988281
+C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Normal\9.jpg,Normal,Cancer,0.49164441227912903
+C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Cancer\19.jpg,Cancer,Cancer,0.4958558678627014
+C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Normal\3.jpg,Normal,Normal,0.5066289901733398
+C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Cancer\7.jpg,Cancer,Cancer,0.499765545129776

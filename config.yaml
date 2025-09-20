@@ -1,0 +1,32 @@
+seed: 42
+image_size: 224
+batch_size: 16
+epochs: 20
+val_split: 0.1
+test_split: 0.1
+augment: true
+optimizer:
+  name: adam
+  lr: 0.001
+loss: binary_crossentropy
+metrics:
+- accuracy
+note: Binary CNN classifier for Normal vs Cancer bone images.
+paths:
+  Normal: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Normal
+  Cancer: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\archive\Research dataset\Cancer
+artifacts:
+  model_h5: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\bone_cancer_cnn.h5
+  label_encoder_pkl: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\label_encoder.pkl
+  history_json: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\history.json
+  history_csv: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\history.csv
+  metrics_json: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\metrics.json
+  classification_report_txt: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\classification_report.txt
+  accuracy_curve_png: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\accuracy_curve.png
+  loss_curve_png: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\loss_curve.png
+  confusion_matrix_png: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\confusion_matrix.png
+  roc_curve_png: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\roc_curve.png
+  test_predictions_csv: C:\Users\NXTWAVE\Downloads\Bone Cancer Detection\artifacts\test_predictions.csv
+classes:
+- Cancer
+- Normal
